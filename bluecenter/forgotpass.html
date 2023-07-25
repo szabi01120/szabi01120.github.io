@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!-- aos !-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Elfelejtett jelszó</title>
+</head>
+
+<body>
+    <!--navbar start-->
+    <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="index.html" class="navbar-item" href="">
+                <img src="assets/logofeheroldal.png " width="180" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbar-links" class="navbar-menu">
+            <div class="navbar-start is-mobile">
+                <a href="index.html" class="navbar-item">
+                    Kezdőoldal
+                </a>
+                <a href="nyeremeny.html" class="navbar-item">
+                    Nyereményjáték
+                </a>
+                <div id="navbar-tovabbiak" class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Továbbiak
+                    </a>
+                    <div class="navbar-dropdown is-hidden-mobile" id="navbar-drop">
+                        <a href="webaruhaz.html" class="navbar-item">
+                            Webáruház
+                        </a>
+                        <a href="about.html " class="navbar-item">
+                            Rólunk
+                        </a>
+                        <hr class="navbar-divider">
+                        <a href="kapcsolat.html" class="navbar-item">
+                            Kapcsolat
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a href="regisztracio.html" class="button is-primary">
+                            <strong>Regisztráció</strong>
+                        </a>
+                        <a href="login.html" class="button is-light">
+                            Bejelentkezés
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="index.js"></script>
+    <!--navbar vége-->
+
+    <footer class="section">
+        <div class="container">
+            <div class="pb-5 is-flex is-flex-wrap-wrap is-justify-content-between is-align-items-center">
+                <div class="mr-auto mb-2 ">
+                    <a class="is-inline-block" href="#">
+                        <img class="image" src="assets/logo.png" alt="" width="150px"></a>
+                </div>
+                <div>
+                    <ul class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center">
+                        <li class="mr-4"><a class="button is-white" href="aszf.html">ÁSZF</a></li>
+                        <li class="mr-4"><a class="button is-white" href="szabalyzat.html">Játékszabályzat</a></li>
+                        <li class="mr-4"><a class="button is-white" href="kapcsolat.html">Kapcsolatfelvétel</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
+        <div class="container">
+            <div class="is-flex-tablet is-justify-content-between is-align-items-center">
+                <p>Minden jog fenntartva. © Blue Center 2022.</p>
+                <div class="py-2 is-hidden-tablet"></div>
+                <div class="ml-auto">
+                    <a class="mr-4 is-inline-block" href="https://www.facebook.com/Blue-Center-107231935196575/"
+                        target="_blank">
+                        <img src="assets/facebook.svg" alt="">
+                    </a>
+                    <a class="mr-4 is-inline-block" href="https://www.instagram.com/bluecenter_hu/" target="_blank">
+                        <img src="assets/instagram.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
