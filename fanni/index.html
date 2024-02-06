@@ -14,45 +14,7 @@
 
     <link rel="stylesheet" href="styles.css" />
 
-    <title>JAVASCRIPT CUCCOK - HSZ</title>
-
-
-
-    <style>
-
-        a:link {
-
-            color: white;
-
-            text-decoration: none;
-
-        }
-
-        a:visited {
-
-            color: white;
-
-            text-decoration: none;
-
-        }
-
-        a:hover {
-
-            color: white;
-
-            text-decoration: none;
-
-        }
-
-        a:active {
-
-            color: white;
-
-            text-decoration: none;
-
-        }
-
-    </style>
+    <title>LAKATOS FANNI WEBOLDALA</title>
 
 </head>
 
@@ -60,10 +22,17 @@
 
 <body>
 
-    <h1>FANNI TE MI VAGY?</h1>
-    
+    <h1>Sziasztok én Lakatos Fanni vagyok és <span id="agePlaceholder">...</span> éves vagyok!</h1>
+    <h3>Hány éves vagy?</h3>
+    <input type="text" placeholder="Életkorom:"></input>
+    <button class="button" type="button" id="ageButton">MEHET</button>
 
-
+    <script>
+        document.getElementById("ageButton").addEventListener("click", function() {
+            var age = document.querySelector("input").value;
+            document.getElementById("agePlaceholder").innerText = age;
+        });
+    </script>
 </body>
 
 
